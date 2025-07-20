@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title>Bank</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+<body data-load="1755263755">
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item">Menu</h3>
+  <a href="home" class="w3-bar-item w3-button">Home</a>
+  <a href="register" class="w3-bar-item w3-button">Register</a>
+  <a href="login" class="w3-bar-item w3-button">Unlock Locker</a>
+  <a href="home" class="w3-bar-item w3-button">Logout</a>
+</div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+<div class="w3-container w3-teal">
+  <h1>Bank Locker Security System Using Face & Liveliness Detection</h1>
+</div>
+
+{% block content %}
+{% endblock %}
+
+
+
+<!-- Footer-->
+<div class="w3-container w3-teal">
+  <div class="w3-container w3-cell w3-mobile" style="width:85%">
+    <h5>Developed By</h5>
+    <div class="w3-container w3-cell">
+      <p>Student 1 NANDINI JAISWAL</p>
+      <p>Student 2 VAISHNAVI KASHYAP</p>
+    </div>
+    <div class="w3-container w3-cell">
+      <p>Student 3 SUMONA SAMANTA </p>
+      <p>Student 4 STUTI VERMA</p>
+    </div>
+  </div>
+  <div class="w3-container w3-cell w3-mobile">
+    <h5>Guided By</h5>
+    <p>Guide Name MR.PIYUSH BHUSHAN SINGH</p>
+  </div>
+  </div>
+
+</div>
+      
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="static/js/ml.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        // first hide the 3rd element individually
+        //$('#elem3').jqLoad('2013-12-12');
+        
+        // Now hide all elements with data-attributes
+        $().jqLoad();
+    });
+</script>
+</html>
