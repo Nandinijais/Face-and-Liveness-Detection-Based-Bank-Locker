@@ -1,5 +1,4 @@
 # Face-and-Liveness-Detection-Based-Bank-Locker
-Source Code for the project
 
 # Overview
 Face and Liveliness Detection-Based Bank Locker System is a Python-based intelligent security application designed to provide high-level authentication for bank lockers.
